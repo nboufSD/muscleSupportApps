@@ -3,8 +3,9 @@ import { ThunkDispatch } from "redux-thunk";
 
 import { actionCreatorFactory } from "./node_modules/typescript-fsa";
 
-import { IState } from "./reducer";
-import { store, TStore } from "./store";
+// import { IState } from "./reducer";
+// import { store, TStore } from "./store";
+import { TStore } from "./store";
 
 const actionCreator = actionCreatorFactory();
 
